@@ -1,0 +1,59 @@
+# Visual Studio / Rider / VSCode
+.vs/
+.vscode/
+.idea/
+
+# Build outputs
+bin/
+obj/
+out/
+
+# User files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# dotnet local settings
+project.lock.json
+project.user
+*.db
+
+# EF migrations (if you prefer not to store)
+Migrations/
+
+# ASP.NET Core
+appsettings.*.json
+secrets.json
+secrets.*.json
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# logs
+*.log
+
+# JetBrains Rider caches
+.idea/
+
+# coverage
+coverage/
+*.cover
+
+# other
+.vagrant/
